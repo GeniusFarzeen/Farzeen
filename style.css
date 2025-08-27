@@ -119,3 +119,13 @@ h2 {
     font-size: 1rem;
   }
 }
+/* Prevent right-click on profile pic */
+.profile-pic {
+  -webkit-user-drag: none; /* disable drag */
+  -webkit-touch-callout: none; /* disable long press on mobile */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none; /* disables right-click and dragging */
+}
