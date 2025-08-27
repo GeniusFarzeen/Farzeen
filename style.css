@@ -123,6 +123,12 @@ h2 {
 .profile-pic {
   -webkit-user-drag: none; /* disable drag */
   -webkit-touch-callout: none; /* disable long press on mobile */
+  .profile-pic {
+  -webkit-user-drag: none;      /* disable drag */
+  -webkit-touch-callout: none;  /* disable long press on mobile */
+  user-select: none;             /* prevent selecting */
+}
+
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
