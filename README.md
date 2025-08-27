@@ -1,4 +1,6 @@
 # Farzeen's Portfolio
+![Alt Text](1000636394.jpg)
+
 
 Hey! I’m **Farzeen**, a student, developer, and creator. Welcome to my online portfolio! 👋
 
