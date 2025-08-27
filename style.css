@@ -1,84 +1,109 @@
-/* ===== General Styles ===== */
+/* === Base Setup === */
 body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-    line-height: 1.6;
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #222;
+  line-height: 1.8;
+  font-size: 18px; /* bigger default text */
 }
 
-/* ===== Header ===== */
+/* === Header Section === */
 header {
-    background-color: #4b6cb7;
-    color: white;
-    text-align: center;
-    padding: 50px 20px;
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #222, #444);
+  color: #fff;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 3em;
+  font-size: 2.8rem; /* bigger title */
+  margin: 1rem 0;
 }
 
 header p {
-    font-size: 1.2em;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: #ddd;
 }
 
-/* ===== Sections ===== */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 4px solid #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* === Sections === */
 section {
-    padding: 50px 20px;
-    max-width: 1000px;
-    margin: auto;
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
 }
 
-section h2 {
-    text-align: center;
-    margin-bottom: 30px;
-    color: #4b6cb7;
+h2 {
+  font-size: 2rem;
+  color: #333;
+  border-bottom: 3px solid #4CAF50;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
-/* ===== Project Cards ===== */
+/* === Projects === */
 .project-card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    padding: 20px;
-    margin: 20px 0;
+  background: #fff;
+  padding: 1.5rem;
+  margin: 1.2rem 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
 }
 
-.project-card img {
-    max-width: 100%;
-    border-radius: 5px;
+.project-card:hover {
+  transform: scale(1.02);
 }
 
-/* ===== Contact Section ===== */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
+.project-card h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #4CAF50;
 }
 
-footer a {
-    color: #4b6cb7;
-    text-decoration: none;
-    margin: 0 10px;
+/* === Timeline === */
+.timeline {
+  list-style: none;
+  padding: 0;
 }
 
-footer a:hover {
-    text-decoration: underline;
+.timeline li {
+  margin: 1.2rem 0;
+  padding: 1.2rem;
+  background: #fff;
+  border-left: 5px solid #4CAF50;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
-/* ===== Responsive ===== */
-@media (min-width: 768px) {
-    .projects-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
+.timeline span {
+  font-weight: bold;
+  color: #4CAF50;
+  font-size: 1.2rem;
+}
 
-    .project-card {
-        width: 45%;
-    }
+/* === Contact Links === */
+#contact p {
+  font-size: 1.1rem;
+}
+#contact a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+#contact a:hover {
+  text-decoration: underline;
 }
 
