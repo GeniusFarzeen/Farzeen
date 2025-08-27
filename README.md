@@ -1,5 +1,6 @@
 # Farzeen's Portfolio
 ![Alt Text](1000636394.jpg)
+<img src="1000636394.jpg" alt="My Profile Pic" width="150"/>
 
 
 Hey! I’m **Farzeen**, a student, developer, and creator. Welcome to my online portfolio! 👋
