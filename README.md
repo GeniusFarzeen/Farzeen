@@ -1,5 +1,5 @@
 # Farzeen's Portfolio
-![Alt Text](1000636394.jpg)
+
 <img src="1000636394.jpg" alt="My Profile Pic" width="150"/>
 
 
